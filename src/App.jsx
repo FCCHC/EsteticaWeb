@@ -14,7 +14,7 @@ function App(){
   const catalogo = [
     {id:1, nombre:"Peinado", precio:200, categoria:"Básicos", imagen:peinado},
     {id:2, nombre:"Corte", precio:150, categoria:"Básicos", imagen:corte},
-    {id:3, nombre:"Tinte", precio:450, categoria:"Premium", imagen:tinte},
+    
   ]
 
  const manejarCompra = () => {
