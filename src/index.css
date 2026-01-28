@@ -1,0 +1,86 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.producto{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.cardProducto{
+  background-color: aliceblue;
+  color: burlywood;
+  margin-left: 10px;
+  border-radius: 5%;
+  display: flex; 
+  
+}
+
+.cardProducto p{
+  margin: 0;
+}
+
+
+.cardButton{
+  border-radius: 5%;
+  background-color: chocolate;
+  font-size: 10px;
+  width: 150px;
+  height: 50px;
+  padding: 0;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.cardButton:hover{
+  background-color:#646cff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3); 
+
+}
+
+.cardImagen{
+  width: 100px;
+  height: 50px;
+  margin-top: 15px;
+}
+
+.cardImagen img{
+ max-width: 100%;
+ object-fit: cover;
+ border-radius: 8%;
+}
+
+.cardInfo{
+  margin-top: auto;
+}
+
+.mainContainer{
+  display: flex;
+  flex-direction: column
+
+}
+
+.mainContainer h1{
+  text-align: center;
+}
+
+.catalogo{
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  padding: 15px;
+  align-items: center;
+}
